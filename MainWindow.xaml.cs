@@ -11,7 +11,6 @@ namespace BotFactory
     public partial class MainWindow : Window
     {
         private DataContext _dataContext = new DataContext();
-        //private UnitTest _unitTestingPage = new UnitTest();
         private FactoryTest _factoryTestPage = new FactoryTest();
         public MainWindow()
         {
